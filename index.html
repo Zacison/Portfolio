@@ -8,7 +8,7 @@
 
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="shortcut icon" type="image/png" href="img/zd-black-logo.png">
         
         <title>Zach Dantzer</title>
     </head>
@@ -25,10 +25,10 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span> About Me</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>My Skills</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>My Projects</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Contact</a></li>            
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link" id="navigation__item-1" ><span>01</span> About Me</a></li>
+                    <li class="navigation__item"><a href="#skills" class="navigation__link" id="navigation__item-2" ><span>02</span>My Skills</a></li>
+                    <li class="navigation__item"><a href="#projects" class="navigation__link" id="navigation__item-3" ><span>03</span>See Projects</a></li>
+                    <li class="navigation__item"><a href="#contact" class="navigation__link" id="navigation__item-4" ><span>04</span>Contact</a></li>            
                 </ul>
             </nav>
       
@@ -47,7 +47,7 @@
                     <span class="heading-primary--main">Zach Dantzer</span>
                     <span class="heading-primary--sub">Front end developer</span>
                 </h1>
-                <a href="#" class="btn btn--white btn--animated">See Projects</a>
+                <a href="#projects" class="btn btn--white btn--animated">See Projects</a>
             </div>
         </header>
 
@@ -82,7 +82,7 @@
                 </div>
             </section>
 
-            <section class="section-features">
+            <section class="section-features" id="skills">
                 <div class="row">
                     <div class="col-1-of-3">
                         <div class="feature-box">
@@ -144,9 +144,9 @@
                 </div>
             </section>
         
-            <section class="section-tours">
+            <section class="section-projects">
                 <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">
+                    <h2 class="heading-secondary" id="projects">
                         Project portfolio
                     </h2>
                 </div>
@@ -164,19 +164,19 @@
                                 </h4>
                                 <div class="card__details">
                                     <ul>
-                                        <li>3 day tours</li>
-                                        <li>Up to 30 people</li>
-                                        <li>2 tour guides</li>
-                                        <li>Sleep in cozy hotels</li>
+                                        <li>HTML | CSS</li>
+                                        <li>ES6 | ES6 Modules</li>
+                                        <li>AJAX | Fetch | Axios</li>
+                                        <li>Webpack | Babel</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card__side card__side--back card__side--back-1">
                                 <div class="card__cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$297</p>
-                                        <a href="#popup" class="btn btn--white">Book now!</a>
+                                        <p class="card__price-only"></p>
+                                        <p class="card__price-value"></p>
+                                        <a href="#popup-1" class="btn btn--white">View Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -195,19 +195,19 @@
                                 </h4>
                                 <div class="card__details">
                                     <ul>
-                                        <li>7 day tours</li>
-                                        <li>Up to 40 people</li>
-                                        <li>6 tour guides</li>
-                                        <li>Sleep in provided tents</li>
+                                        <li>HTML | CSS</li>
+                                        <li>ES5 JavaScript</li>
+                                        <li>MVC Architecture</li>
+                                        <li>%'s Update In Real Time</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card__side card__side--back card__side--back-2">
                                 <div class="card__cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$497</p>
-                                        <a href="#popup" class="btn btn--white">Book now!</a>
+                                        <p class="card__price-only"></p>
+                                        <p class="card__price-value"></p>
+                                        <a href="#popup-2" class="btn btn--white">View Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -226,28 +226,32 @@
                                 </h4>
                                 <div class="card__details">
                                     <ul>
-                                        <li>5 day tours</li>
-                                        <li>Up to 15 people</li>
-                                        <li>3 tour guides</li>
-                                        <li>Sleep in provided tents</li>
+                                        <li>HTML | CSS | Bootstrap</li>
+                                        <li>Chance.JS</li>
+                                        <li>DOM Manipulation</li>
+                                        <li>Local Storage</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="card__side card__side--back card__side--back-3">
                                 <div class="card__cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$897</p>
-                                        <a href="#popup" class="btn btn--white">Book now!</a>
+                                        <p class="card__price-only"></p>
+                                        <p class="card__price-value"></p>
+                                        <a href="#popup-3" class="btn btn--white">View Demo</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--green">See All Projects</a>
-                </div>
+                
+                    <div class="u-center-text u-margin-top-huge">
+                        <!--
+                        <a href="#" class="btn btn--green">See All Projects</a>
+                        -->
+                    </div>
+                 
             </section>
 <!--
             <section class="section-stories">
@@ -352,7 +356,7 @@
         -->
         </main>
 
-        <footer class="footer">
+        <footer class="footer" id="contact">
             <div class="footer__logo-box">
                 <img src="img/zd-logo.png" alt="Full logo" class="footer__logo">
             </div>
@@ -374,21 +378,84 @@
             </div>
         </footer>
 
-        <div class="popup" id="popup">
+        <div class="popup" id="popup-1">
             <div class="popup__content">
-                <div class="popup__left">
-                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
-                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
-                </div>
-                <div class="popup__right">
-                    <a href="#section-tours" class="popup__close">&times;</a>
-                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
-                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
-                    <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit laoreet id. Augue neque gravida in fermentum et sollicitudin ac. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Dictum fusce ut placerat orci nulla pellentesque dignissim enim. </p>
-                    <a href="#" class="btn btn--green">Book now</a>
-                </div>
+
+                <div id="popup--row">
+                    <div class="popup__left">
+                        <img src="img/food-app.gif" alt="Tour photo" class="popup__img">
+                    </div>
+                    <div class="popup__right">
+                        <a href="#section-tours" class="popup__close">&times;</a>
+                        <h2 class="heading-secondary u-margin-bottom-small">Food App</h2>
+                        <p class="popup__text">In this project, you can search for food, select a recipe, add the ingredients to a shopping cart, and also add the recipe to your liked recipes. To do this, I used MVC architecture, and broke each of the models/views down into separate files for ease of use. I used AJAX calls using the fetch API & axios to get the data. Once that data is displayed on the left, you can click on a recipe to see the full recipe with ingredients. I used another API call to do that. I also implemented persistent storage for this application as well. </p>
+                        <div id="#popup-btn-center" style="text-align: center;">
+                            <a href="#" class="btn btn--green" id="popup--btn--green">Live Demo</a>
+                            <a href="https://github.com/Zacison/myFoodApp" target="_blank" class="btn btn--green popup--btn-right" id="popup--btn--green">Source Code</a>
+                        </div>
+                    </div>
+                </div>    
             </div>
         </div>
+
+        <div class="popup" id="popup-2">
+            <div class="popup__content">
+
+                <div id="popup--row">
+                    <div class="popup__left">
+                        <img src="img/budget-app-mobile.gif" alt="Tour photo" class="popup__img">
+                    </div>
+                    <div class="popup__right">
+                        <a href="#section-tours" class="popup__close">&times;</a>
+                        <h2 class="heading-secondary u-margin-bottom-small">Budget App</h2>
+                        <p class="popup__text">Taking what I learned from the bug tracker, I build a monthly budget calculator where you can input income & expenses. In addition, the expenses have a percentage label which shows the % of that expense to the total income. You can also delete incomes and expenses, and everything updates in real time.
+                            To combat a lot of code piling up, I used Model-View-Controller architecture. I separated the internal data components into one section, the UI components into another, and the central module controlling them into a third. This way, the code was a lot cleaner & the development smoother.</p>
+                        
+                        <div id="#popup-btn-center" style="text-align: center;">
+                            <a href="http://www.zachdantzer.com/budget.html" target="_blank" class="btn btn--green" id="popup--btn--green">Live Demo</a>
+                            <a href="https://github.com/Zacison/Budget-App" target="_blank" class="btn btn--green popup--btn-right" id="popup--btn--green">Source Code</a>
+                        </div>
+                    </div>
+                </div>    
+
+            </div>
+        </div>
+
+        <div class="popup" id="popup-3">
+            <div class="popup__content">
+
+                <div id="popup--row">
+                    <div class="popup__left">
+                        <img src="img/js-bug-tracker-mobile.gif" alt="Tour photo" class="popup__img">
+                    </div>
+                    <div class="popup__right">
+                        <a href="#section-tours" class="popup__close">&times;</a>
+                        <h2 class="heading-secondary u-margin-bottom-small">Bug Tracker</h2>
+                        <p class="popup__text">
+                            Although the to do list application is a popular project with many programmers, I wanted to do something more business oriented. 
+                            Every business needs a good bug tracker, so here is mine.
+                            Once a user clicks the add button, the bug tracker reads the data from the page, stores it, calls a function to generate the markup, and finally displays it on the UI. 
+                        </p>
+                        <p class="popup__text">
+                            I used Bootsrap for a clean and simple user interface. 
+                            For the ID's, I used Chance.js so that they would not be the boring ID's of 1, 2, 3, etc...
+                            Next, I added a button to click to switch the ticket from open to closed, and a way to delete tickets permenantly. 
+                            Finally, I implemented local storage for persistent data.
+                        </p>  
+
+                        </p>
+                        
+                        <div id="#popup-btn-center" style="text-align: center;">
+                            <a href="https://zacison.github.io/Quick-Issue-Tracker/" target="_blank" class="btn btn--green" id="popup--btn--green">Live Demo</a>
+                            <a href="https://github.com/Zacison/Quick-Issue-Tracker/tree/master" target="_blank" class="btn btn--green popup--btn-right" id="popup--btn--green">Source Code</a>
+                        </div>
+                    </div>
+                </div>    
+
+            </div>
+        </div>
+
+       
 
         <!-- 
         <section class="grid-test">
@@ -422,6 +489,6 @@
             </div>
         </section>
         -->
-        
+        <script src="js/app.js"></script>
     </body>
 </html>
